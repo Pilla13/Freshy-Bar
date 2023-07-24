@@ -90,5 +90,121 @@ fieldset {
 /* HERO */
 
 .hero {
-  padding: 30px 0 35px;
+  padding-top: 30px;
+}
+
+.hero__title {
+  max-width: 880px;
+  font-size: 84px;
+  font-weight: 900;
+}
+
+.hero__title .text-pink {
+  color: #f44;
+}
+
+.hero__cups {
+  display: flex;
+  gap: 20px;
+  padding-top: 270px;
+}
+
+.hero__cup {
+  position: relative;
+  width: 380px;
+  height: 382px;
+  border-radius: 24px;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__cup_pink {
+  background-color: #ff196c;
+}
+
+.hero__cup_green {
+  background-color: #ffb72a;
+  margin-top: -70px;
+}
+
+.hero__cup_orange {
+  background-color: #34b905;
+}
+
+/* GOODS */
+
+.goods {
+  padding-top: 145px;
+}
+
+.goods__title {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.goods__list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.goods__card {
+  padding: 12px;
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+.cocktail__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cocktail__title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cocktail__price {
+  color: #f44;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cocktail__size {
+  color: #c1c1c1;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  margin-top: -15px;
+}
+
+.cocktail__btn {
+  display: block;
+  width: 232px;
+  margin: 0 auto;
+  padding: 12px 28px;
+  margin-bottom: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 100px 0 30px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
